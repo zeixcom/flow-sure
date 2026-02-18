@@ -1,3 +1,20 @@
+# FlowSure has been integrated in Cause & Effect
+
+See: https://github.com/zeixcom/cause-effect
+
+While signal based reactivity is not the same as functional pipelines – what flow sure stood for – most of the paradigms of this exploration have been integrated in Cause & Effect:
+
+- Type-safe, non-nullable values as a guarantee throughout the signal graph, with guards at the entry point (`State` signals)
+- Memoized computations (`Memo` signals) that can be composed to a reactive graph are more flexible than linear pipelines
+- `Task` signals incorporate the seamless integration of async computations we originally strived for with `task()`
+- The `match()` function for `Effect` in Cause & Effect is designed after the `.match()` method in this project
+
+**This repository will not be updated anymore.** Use Cause & Effect instead.
+
+Cause & Effect features one of the fastest signal engines and contains a complete Set of primitives that give you all the guarantees lacking in imperative programming. It offers fine-grained reactivity for composite signals (`Store`, `List`, derived `Collection`), and primitives for deriving states from event streams (`Sensor`) and property descriptors with swappable backing signals (`Slot`).
+
+---
+
 # FlowSure
 
 Version 0.10.0
